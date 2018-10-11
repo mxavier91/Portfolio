@@ -46,6 +46,6 @@
   },
   "main": "gulpfile.js",
   "scripts": {
-    "deploy": "gh-pages -d startbootstrap-creative-gh-pages"
+    "deploy": "gh-pages -d dist"
   }
 }
