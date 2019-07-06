@@ -9,10 +9,8 @@
 
   <title>Portfolio</title>
 
-  <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet"
     href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
@@ -23,10 +21,8 @@
     href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic'
     rel='stylesheet' type='text/css'>
 
-  <!-- Plugin CSS -->
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
-  <!-- Custom styles for this template -->
   <link href="css/creative.min.css" rel="stylesheet">
 
 </head>
@@ -45,17 +41,17 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Skills</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
+          <li class="nav-item">
+              <a class="nav-link" href="https://drive.google.com/open?id=1sHIbW-ZKRlTWB83YgMdJcthAoUIdEmA3" target="_blank">Resume</a>
+            </li>
         </ul>
       </div>
     </div>
@@ -65,33 +61,19 @@
     <div class="container my-auto">
       <div class="row">
         <div class="col-lg-10 mx-auto">
-          <h1 class="text-uppercase">
+          <h1 class="bg-text-overlay text-uppercase">
             <strong>Malcolm Thomas</strong>
             <p>Web Developer| Creator| Always Learning</p>
           </h1>
         </div>
         <div class="col-lg-8 mx-auto">
           <p class="text-faded mb-5"></p>
-          <!-- <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">About Me</a> -->
         </div>
       </div>
     </div>
   </header>
 
-  <section class="bg-primary" id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto text-center">
-          <h2 class="section-heading text-white">About Me</h2>
-          <hr class="light my-4">
-          <p class="about text-faded mb-4">Hello, my name is Malcolm Thomas and I am a Web Developer. Since I began learning web development back in 2017, I've realized that programming is more than the syntax of a language. It's about solving complex problems that make a user's life easier. My learning has never stopped. Everyday, I am trying to learn new languages, and concepts, and ways to incorporate them into projects that I build.</p>
-          <a class="btn btn-light btn-xl js-scroll-trigger" href="https://drive.google.com/open?id=1sHIbW-ZKRlTWB83YgMdJcthAoUIdEmA3" target="_blank">Resume</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="services">
+  <!-- <section id="services">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -176,13 +158,15 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <section class="my-4 p-0" id="portfolio">
     <div class="row">
       <div class="col-lg-6 portfolio-item my-4">
         <div class="card h-100">
-          <img class="card-img-top" src="img/fitness.png" alt="CAC">
+          <a href="https://fitness-journal123.netlify.com/" target="_blank">
+            <img class="card-img-top" src="img/fitness.png" alt="Fitness">
+          </a>
           <div class="card-body">
             <h4 class="card-title">
               <a href="https://fitness-journal123.netlify.com/" target="_blank">Fitness-Journal</a>
@@ -195,7 +179,9 @@
       </div>
       <div class="col-lg-6 portfolio-item my-4">
         <div class="card h-100">
-          <img class="card-img-top" src="img/Get_Up.png" alt="Get Up">
+          <a href="https://mxavier91.github.io/Get-Up-Client/" target="_blank">
+            <img class="card-img-top" src="img/Get_Up.png" alt="Get Up">
+          </a>
           <div class="card-body">
             <h4 class="card-title">
               <a href="https://mxavier91.github.io/Get-Up-Client/" target="_blank">Get Up</a>
@@ -212,7 +198,9 @@
       </div>
       <div class="col-lg-6 portfolio-item">
         <div class="card h-100">
-          <img class="card-img-top" src="img/snow_doctors_2.png" alt="Snow Doctors">
+          <a href="https://mxavier91.github.io/snow_service" target="_blank">
+            <img class="card-img-top" src="img/snow_doctors_2.png" alt="Snow Doctors">
+          </a>
           <div class="card-body">
             <h4 class="card-title">
               <a href="https://mxavier91.github.io/snow_service" target="_blank">Snow Doctors</a>
@@ -224,7 +212,9 @@
       </div>
       <div class="col-lg-6 portfolio-item">
         <div class="card h-100">
-          <img class="card-img-top" src="img/quiz_game.png" alt="Quiz Game">
+          <a href="https://mxavier91.github.io/Quiz_Game/" target="_blank">
+            <img class="card-img-top" src="img/quiz_game.png" alt="Quiz Game">
+          </a>
           <div class="card-body">
             <h4 class="card-title">
               <a href="https://mxavier91.github.io/Quiz_Game/" target="_blank">Quiz Game</a>
@@ -237,20 +227,25 @@
     </div>
   </section>
 
-  <!-- <section class="bg-dark text-white">
-      <div class="container text-center">
-        <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-        <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
+  <section class="bg-primary" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <h2 class="section-heading text-white">About Me</h2>
+          <hr class="light my-4">
+          <p class="about text-faded mb-4">Since I began learning web development, I've realized that programming is more than the syntax of a language. It's about solving complex problems that make a user's life easier. My learning has never stopped. Everyday, I am trying to learn new languages, and find ways to incorporate them into projects that I build.</p>
+          <a class="btn btn-light btn-xl js-scroll-trigger" href="https://drive.google.com/open?id=1sHIbW-ZKRlTWB83YgMdJcthAoUIdEmA3" target="_blank">Resume</a>
+        </div>
       </div>
-    </section> -->
+    </div>
+  </section>
 
-  <section class="bg-primary text-white" id="contact">
+  <section class="bg-dark text-white" id="contact">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
           <h2 class="section-heading">Let's Get In Touch!</h2>
           <br class="my-4">
-          <!-- <p class="mb-5"></p> -->
         </div>
       </div>
       <div class="row">
@@ -268,16 +263,13 @@
     </div>
   </section>
 
-  <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
   <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
   <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-  <!-- Custom scripts for this template -->
   <script src="js/creative.min.js"></script>
 
 </body>
